@@ -10,4 +10,4 @@ if ((typeof name !== 'string') || !name) {
   throw new TypeError('climod-add-script command not specified.');
 }
 
-packageJson().setScript(name, cmd).save();
+packageJson().appendScript(name, cmd).save();

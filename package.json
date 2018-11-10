@@ -1,12 +1,9 @@
 {
   "name": "climod-add-script",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": "index.js",
   "dependencies": {
     "mrm-core": "^3.3.0",
     "minimist": "^1.2.0"
-  },
-  "scripts": {
-    "test": "jest"
   }
 }
